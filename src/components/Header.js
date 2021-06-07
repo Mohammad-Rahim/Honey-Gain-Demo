@@ -1,18 +1,17 @@
-import React from 'react'
-import Header from '../styles/components/Header.css'
+import React from "react";
+import "../styles/components/Header.css";
 
-function header() {
-      return (
-          <div>
-          
-            <div className="logo">Dashboard</div>
-        
-          </div>
-      )
-  }
-  
-  export default header
-  
+function Header() {
+  return (
+    <div>
+      <div className="navbar">Dashboard</div>
+      <ul className="nav-items">
+        <li>Get Windows app</li>
+        <li>Get MacOs app</li>
+        <li>Get Android app</li>
+      </ul>
+    </div>
+  );
+}
 
-
-
+export default Header;
